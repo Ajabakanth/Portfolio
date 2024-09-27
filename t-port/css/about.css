@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins;
+    background-color :#b3d7ed;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.main-banner{
+    /* background: #b3d7ed; */
+    background-color: #f5f5f5;
+    position:fixed;
+    width: 250px;
+    height: 100%;
+    font-size: 20px;
+}
+
+.main-banner nav ul li a{
+    display: block;
+    color: black;
+    padding: 42px 38px;
+    margin-top: 12px;
+    font-weight: bold;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.main-banner nav ul li a:hover{
+    color:#1588d0;
+}
+
+/* 
+.sub-banner{
+    margin: 0;
+}
+
+.sub-banner{
+    background:#b3d7ed;
+    position:static;
+    top: 65.5px;
+    width: 250px;
+    height: 100%;
+    font-size: 20px;
+    /* border: 1px solid black; */  /*
+}
+
+.sub-banner nav ul li a{
+    display: block;
+    color:black;
+    /* position:static; */  /*
+    padding: 35px 38px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+    /* border: 1px solid black; */  /*
+
+}
+
+
+.sub-banner nav ul li a:hover{
+    color:#1588d0;
+} */
+
+.profile{
+    display: flex;
+
+}
+
+/* @keyframes example{
+    from{margin-left:0px;}
+    to{margin-left: 10px;}
+} */
+
+@keyframes scroll-out{
+    0%{
+        transorm:translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transorm:translateX(0);
+        opacity: 1;
+    }
+}
+
+.right-left-col .content{
+    margin-left: 340px;
+    margin-top: 110px;
+    width: 450px;
+    color: #000;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation:scroll-out 2s; 
+
+}
+
+.right-col image{
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-name: example2;
+} 
+
+@keyframes example2{
+    from{margin-right:100%;}
+    to{margin-left: 0px;}
+}
+
+
+.right-left-col .content .name{
+    color:#000;
+    font-family: libre bodoni;
+    font-size: 45px;
+}
+.right-left-col .content p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.right-left-col .btns{
+    /* margin-left: 340px; */
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    background-color :#ffabab;
+    color: black;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:490px;
+    font-size: 20px;
+
+}
+
+.right-col .image img{
+    width: 400px;
+    height: 450px;
+    margin-left:250px;
+    margin-top:150px;
+    border-radius: 20px;
+    /* border: 2.5px dashed #008080; */
+    /* padding :5px; */
+
+}
+
+
+/* .portfile{ */
+    /* display:flex; */
+    /* position: relative; */
+
+/* } */
+

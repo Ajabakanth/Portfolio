@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    background-color :#b3d7ed;
+}
+
+.wrapper{
+    display:flex ;
+}
+
+.main-banner{
+    background: #f5f5f5;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    font-size: 20px;
+}
+
+.main-banner nav ul li a{
+    display: block;
+    color: black;
+    /* position: relative; */
+    /* position: fixed; */
+    padding: 42px 38px;
+    margin-top: 12px;
+    font-weight: bold;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.main-banner nav ul li a:hover{
+    color:#1588d0;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 95%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    /* margin-left: 260px; */
+    resize:vertical
+
+}
+  
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color :#ffabab;
+    color: black;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left:30%;
+    font-size: 20px;
+
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+  /* Add a background color and some padding around the form */
+.container {
+
+    border-radius: 5px;
+    background-color:#b3d7ed;
+    /* background-color: white; */
+    padding: 30px;
+    margin-left: 38%;
+    width: 25%;
+    margin-top: 5px;
+    position: relative;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-name: example;
+    
+}
+
+
+@keyframes example{
+    from {margin-left:260px;}
+    to{margin-left:600px;}
+}
+
+label{
+    display: block;
+    font-size: 25px;
+}
+input{
+    display: block;
+}

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+    background-color :#b3d7ed;
+    animation: fadeinanimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeinanimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.banner{
+    margin: 0 auto;
+}
+
+.banner nav{
+    display: flex;
+    padding: 20px;
+}
+
+.banner h1{
+    font-size:40px;
+}
+.banner nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-left:660px;
+    /* border: 1px solid black; */
+}
+
+
+.banner nav ul li a i{
+    /* display: flex; */
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    margin-left: 110px;
+    /* background-color: #b3d7ed; */
+    /* border: 1px solid black; */
+}
+
+nav ul li a i{
+    position: relative;
+}
+
+nav ul li a i::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 1px;
+    border-bottom: 2px solid gray;
+    bottom: -6px;
+    transition:width .3s;
+}
+/*
+.sub-banner{
+    margin: 0;
+}
+
+.sub-banner{
+    background:#b3d7ed;
+    position: fixed;
+    top: 65.5px;
+    width: 250px;
+    height: 100%;
+    font-size: 20px;
+    /* border: 1px solid black; */    /*  
+}
+
+.sub-banner nav ul li a{
+    display: block;
+    color:black;
+    position: relative;
+    padding: 35px 38px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+    /* border: 1px solid black; */    /*
+
+} */
+
+.banner nav ul li a i:hover{
+    color:#1588d0;
+}
+/*
+.sub-banner nav ul li a:hover{
+    color:#1588d0;
+}
+*/
+.quote{
+    margin-left: 270px;
+    font-size: 45px;
+    /* font-weight: 100; */
+    margin-top: 0;
+}
+
+
+.quote  #author{
+    margin-left: 550px;
+    color: white;
+
+}
+
+
+/*
+.profile{
+    display:flex;
+}
+.right-left-col .content{
+    margin-left: 280px;
+    margin-top: 250px;
+    width: 450px;
+    color: black;
+
+}
+.right-left-col .content .name{
+    color: black;
+    font-family: libre bodoni;
+    font-size: 35px;
+}
+.right-left-col .content p{
+    margin-top: 10px;
+}
+
+
+
+.right-col .image img{
+    width: 400px;
+    height: 450px;
+    margin-left:300px;
+    border-radius: 20px;
+
+}
+
+.right-col img{
+    margin-top: 150px;
+
+}
+
+
+
+
+/* nav ul li a::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 1px;
+    border-bottom: 2px solid grey;
+    bottom: -6px;
+    transition:width .3s;
+} */
+
+/* 
+nav ul li a:hover:before{
+    width: 35%;
+} */
+/*
+.banner nav{
+    display: flex;
+    padding: 20px;
+    
+
+}*/

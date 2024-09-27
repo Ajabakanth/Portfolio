@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    background-color :#b3d7ed;
+}
+
+.main-banner{
+    background:#b3d7ed;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    font-size: 20px;
+}
+
+.main-banner nav ul li a{
+    display: block;
+    color: black;
+    position: relative;
+    padding: 35px 38px;
+    margin-top: 12px;
+    font-weight: bold;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.main-banner nav ul li a:hover{
+    color:#1588d0;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.side-col .con{
+    display: flex;
+}
+.side-col .con #btn1{
+    margin-left: 290px;
+    padding: 40px;
+    background-color: #b3d7ed;
+    color: black;
+    border-radius: 25px;
+}
+
+.side-col .con #btn2{
+    margin-left:50px;
+    padding: 40px;
+}

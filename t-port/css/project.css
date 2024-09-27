@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    background-color :#b3d7ed;
+}
+
+.wrapper{
+    display: flex;
+}
+.main-banner{
+    background:#f5f5f5;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    font-size: 20px;
+}
+
+.main-banner nav ul li a{
+    display: block;
+    color: black;
+    position: relative;
+    padding: 42px 38px;
+    margin-top: 12px;
+    font-weight: bold;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.main-banner nav ul li a:hover{
+    color:#1588d0;
+}
+.timeline1{
+    position: relative;
+    /* padding: 10px; */
+    margin-left: 320px;
+    width: 75%;
+    margin-top: 38px;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-name: example;
+}
+
+.timeline2{
+    position: relative;
+    /* padding: 10px; */
+    margin-left: 320px;
+    width: 75%;
+    margin-top: 50px;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-name: example2;
+}
+
+
+@keyframes example{
+    from {top:710px;}
+    to{top:0px;}
+}
+
+
+@keyframes example2{
+    from {top:710px;}
+    to{top:0px;}
+}
+
+
+.timeline-entry {
+    position: relative;
+    padding: 20px;
+    /* margin: 10px 0; */
+    /* width: 80%; */
+}
+
+.timeline-content {
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+
+.timeline-content h3 {
+    margin: 5px 0;
+    /* color: #555; */
+}
+
+.timeline-content p{
+    margin-left: 90px;
+    width: 85%;
+}
+
+.timeline-entry:before {
+    content: '';
+    position: absolute;
+    left: -5px; /* Adjust for line */    
+    top: 20px;
+    height: 80%;
+    width: 4px;
+    background: #ffabab; /* Line color */    
+    z-index: -1;
+}
+/*
+.timeline-entry:nth-child(even):before {
+    left: auto;
+    right: -15px; /* Adjust for line on right */     /*
+}
+    */
+
+.timeline-entry:nth-child(odd) .timeline-content {
+    margin-left: 15px; /* Indent for odd entries */   
+}
+/*
+
+.timeline-entry:nth-child(even) .timeline-content {
+    margin-right: 40px; /* Indent for even entries */   /*
+}
+*/
